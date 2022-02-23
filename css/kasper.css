@@ -232,7 +232,7 @@ header nav .form i {
 .landing {
     min-height: 100vh;
     background-color: var(--secandry-color);
-    background-image: url(imeges/landing-2.jpg);
+    background-image: url(../imeges/landing-2.jpg);
     background-size: cover;
     position: relative;
 }
@@ -379,7 +379,7 @@ header nav .form i {
     display: flex;
     align-items: center;
     position: relative;
-    background-image: url(imeges/design-features.jpg);
+    background-image: url(../imeges/design-features.jpg);
     background-size: cover;
     height: 600px;
     overflow: hidden;
@@ -625,7 +625,7 @@ header nav .form i {
     padding-top: var(--main-padding);
     padding-bottom: var(--main-padding);
     text-align: center;
-    background-image: url(imeges/stats.png);
+    background-image: url(../imeges/stats.png);
     background-size: cover;
     position: relative;
 }
@@ -838,7 +838,7 @@ header nav .form i {
 .pic {
     padding-top: var(--main-padding);
     padding-bottom: var(--main-padding);
-    background-image: url(imeges/galactic_lg.jpg);
+    background-image: url(../imeges/galactic_lg.jpg);
     background-size: cover;
     position: relative;
 }
@@ -988,7 +988,7 @@ header nav .form i {
 .supscribe {
     padding-top: var(--main-padding);
     padding-bottom: var(--main-padding);
-    background-image: url(imeges/galactic_lg.jpg);
+    background-image: url(../imeges/galactic_lg.jpg);
     position: relative;
     background-size: cover;
     color: white;
@@ -1164,7 +1164,7 @@ header nav .form i {
 .footer {
     padding-top: calc(var(--main-padding) / 2);
     padding-bottom: calc(var(--main-padding) / 2);
-    background-image: url(imeges/galaxy.jpg);
+    background-image: url(../imeges/galaxy.jpg);
     background-size: cover;
     position: relative;
     color: white;
