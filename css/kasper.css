@@ -1,6 +1,6 @@
 /*start global val*/
 
- :root {
+:root {
     --main-color: #19c8fa;
     --secandry-color: #a2a2a2;
     --transberant-color: rgb(15 116 143 / 70%);
@@ -115,7 +115,7 @@ ul {
 /*end global rouls*/
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 
@@ -162,7 +162,7 @@ header nav .toog {
     font-size: 20px;
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
     header nav .toog {
         display: none;
     }
@@ -172,7 +172,7 @@ header nav ul {
     display: flex;
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
     header nav ul {
         display: none;
     }
@@ -263,7 +263,7 @@ header nav .form i {
     max-width: 500px;
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
     .landing .text {
         width: 100%;
     }
@@ -290,7 +290,7 @@ header nav .form i {
     color: #ddd;
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
     .landing .iconr {
         display: none;
     }
@@ -321,7 +321,7 @@ header nav .form i {
 }
 
 .landing .polits .active {
-    background-color: var(--main-color)
+    background-color: var(--main-color);
 }
 
 
@@ -335,7 +335,7 @@ header nav .form i {
     padding-bottom: var(--main-padding);
 }
 
-@media (min-width:767px) {
+@media (min-width: 767px) {
     .services .services-container {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
@@ -347,7 +347,7 @@ header nav .form i {
     display: flex;
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
     .services .box {
         display: flex;
         flex-direction: column;
@@ -355,7 +355,7 @@ header nav .form i {
         margin-bottom: 40px;
     }
     .services .box i {
-        margin-bottom: 30px
+        margin-bottom: 30px;
     }
 }
 
@@ -385,7 +385,7 @@ header nav .form i {
     overflow: hidden;
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
     .design .imges {
         display: none;
     }
@@ -454,6 +454,7 @@ header nav .form i {
 .portfolio .shufffle {
     display: flex;
     justify-content: center;
+    cursor: pointer;
 }
 
 .portfolio .shufffle li {
@@ -485,13 +486,13 @@ header nav .form i {
     transform: rotate(4deg) scale(1.1);
 }
 
-@media (min-width:767px) {
+@media (min-width: 767px) {
     .portfolio .imeges-hold .box {
         flex-basis: 50%;
     }
 }
 
-@media (min-width:1199px) {
+@media (min-width: 1199px) {
     .portfolio .imeges-hold .box {
         flex-basis: 25%;
     }
@@ -608,7 +609,7 @@ header nav .form i {
     max-width: 100%;
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
     .about img {
         bottom: -60px;
         margin-top: -60px;
@@ -652,20 +653,20 @@ header nav .form i {
     padding: 50px;
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
     .stats .container .box {
         flex-basis: 100%;
         border-bottom: 3px solid #79554861;
     }
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
     .stats .container .box {
         flex-basis: 50%;
     }
 }
 
-@media (min-width:992px) {
+@media (min-width: 992px) {
     .stats .container .box {
         flex-basis: 25%;
     }
@@ -709,7 +710,7 @@ header nav .form i {
     flex-wrap: wrap;
 }
 
-@media (min-width:992px) {
+@media (min-width: 992px) {
     .skills .container .p-1 {
         flex-basis: 45%;
     }
@@ -741,7 +742,7 @@ header nav .form i {
     margin: 0 50px 0 0;
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
     .skills .testimonials .box {
         flex-direction: column;
         text-align: center;
@@ -1035,7 +1036,7 @@ header nav .form i {
     border: 1px solid white;
     padding: 20px 20px 20px 60px;
     caret-color: var(--main-color);
-    width: calc( 100% - 130px);
+    width: calc(100% - 130px);
     border-right: none;
 }
 
@@ -1060,7 +1061,7 @@ header nav .form i {
 }
 
 .supscribe .container p {
-    LINE-HEIGHT: 1.5;
+    line-height: 1.5;
     margin-left: 50px;
 }
 

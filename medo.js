@@ -16,3 +16,13 @@ acClassP.forEach((element) => {
         element.classList.add("active");
     };
 });
+let shClass = document.querySelectorAll(".shufffle li");
+shClass.forEach((element) => {
+    element.onclick = function() {
+        shClass.forEach((element) => {
+            element.classList.remove("active");
+        });
+        element.classList.add("active");
+    };
+});
+console.log(shClass);
